@@ -2,7 +2,7 @@ pipeline {
   agent any
   stages {
     stage('Build') {
-      parallel {
+      paralle {
         stage('Build') {
           steps {
             echo 'Building the .NET Core application'
